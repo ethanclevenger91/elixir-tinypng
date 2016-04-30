@@ -21,31 +21,33 @@ var elixir = require('laravel-elixir');
 require('elixir-tinypng');
 
 elixir(function(mix) {
-    mix.tinypng('img', {
-      key: 'API_KEY',
-			sigFile: '.tinypng-sigs',
-    })
+  mix.tinypng({
+    key: 'API_KEY',
+    sigFile: '.tinypng-sigs',
+  });
 });
 
 ```
 
-## API
-
-### mix.tinypng(src, output, [options])
-
-#### src
-Type: `String`<br>
-Description: Where to find images, relative to `resources/assets` directory
-Default: `config.img.folder` || `config.assetsPath+'/img'`
-
-#### output
-Type: `String`<br>
-Description: Where to output images, relative to `public` directory
-Default: `config.img.outputFolder` || `config.publicPath+'/img'`
+## mix.tinypng([options])
 
 #### options
 
 See options for [gulp-tinypng-compress](https://github.com/stnvh/gulp-tinypng-compress#api)
+
+## Custom Directory Structure
+
+By default, images in `resources/assets/img` will be compiled to `public/img`. You can override this by setting Elixir's config:
+
+```js
+config.img = {
+  folder: "raw/images",
+  outputFolder:"compressed/images"
+}
+```
+
+## File types
+TinyPNG only proceses `png`s and `jpg`s. Anything else you'll want to either write an additional task to move or put directly into your the directory your processed images are going in.
 
 
 ## License
