@@ -11,7 +11,7 @@
 Install with [npm](https://npmjs.org/package/elixir-tinypng) - In your project folder, run:
 
 ```
-npm install gulp-tinypng-compress
+npm install elixir-tinypng
 ```
 
 ## Example
