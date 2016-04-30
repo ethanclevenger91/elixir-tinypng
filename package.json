@@ -1,0 +1,33 @@
+{
+  "name": "elixir-tinypng",
+  "version": "1.0.0",
+  "description": "wrapper for gulp-tinypng-compress plugin",
+  "main": "src/index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ethanclevenger91/elixir-tinypng"
+  },
+  "keywords": [
+    "elixir",
+    "tinypng"
+  ],
+  "author": {
+    "name": "Ethan Clevenger",
+    "email": "ethan.c.clevenger@gmail.com",
+    "url": "http://ethanclevenger.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "gulp-tinypng-compress": "^1.2.1",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3"
+  }
+}
