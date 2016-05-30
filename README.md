@@ -47,7 +47,7 @@ config.img = {
 ```
 
 ## File types
-TinyPNG only proceses `png`s and `jpg`s. Anything else you'll want to either write an additional task to move or put directly into your the directory your processed images are going in.
+TinyPNG only processes PNGs and JPGs. For everything else (GIFs, SVGs, etc.), you'll want to either write an additional task to move them or put them directly into the directory your processed images are going in.
 
 
 ## License

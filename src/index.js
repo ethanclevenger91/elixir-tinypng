@@ -21,7 +21,7 @@ const gulpTask = function(options) {
     		.pipe(tinypng(options))
     		.pipe(gulp.dest(paths.output.path));
     })
-    .watch(paths.src+'/**/*.{png,jpg,jpeg}')
+    .watch(paths.src.path+'.{png,jpg,jpeg}')
 };
 
 Elixir.extend('tinypng', function() {

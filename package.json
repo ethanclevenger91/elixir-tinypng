@@ -12,7 +12,11 @@
   },
   "keywords": [
     "elixir",
-    "tinypng"
+    "tinypng",
+    "image",
+    "compress",
+    "gulp",
+    "laravel"
   ],
   "author": {
     "name": "Ethan Clevenger",
