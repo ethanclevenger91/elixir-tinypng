@@ -6,12 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [2.1.0] - 2017-08-07
+## [1.1.0] - 2017-08-07
 ### Added
 - Changelog added
 
 ### Changed
 - Depend on [gulp-tinypng-extended] to eliminate deprecation warnings.
 
-[Unreleased]: https://github.com/ethanclevenger91/elixir-tinypng/compare/2.1.0...HEAD
-[2.1.0]: https://github.com/ethanclevenger91/elixir-tinypng/compare/v1.0.1...2.1.0
+[Unreleased]: https://github.com/ethanclevenger91/elixir-tinypng/compare/1.1.0...HEAD
+[1.1.0]: https://github.com/ethanclevenger91/elixir-tinypng/compare/v1.0.1...1.1.0
