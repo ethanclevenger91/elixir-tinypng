@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var Elixir = require('laravel-elixir');
 var _ = require('underscore');
-var tinypng = require('gulp-tinypng-compress');
+var tinypng = require('gulp-tinypng-extended');
 
 const config = Elixir.config;
 

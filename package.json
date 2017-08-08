@@ -1,7 +1,7 @@
 {
   "name": "elixir-tinypng",
-  "version": "1.0.2",
-  "description": "wrapper for gulp-tinypng-compress plugin",
+  "version": "2.0.0",
+  "description": "wrapper for gulp-tinypng-extended plugin",
   "main": "src/index.js",
   "scripts": {
     "test": ""
